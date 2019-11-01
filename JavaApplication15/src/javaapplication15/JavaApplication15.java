@@ -10,7 +10,7 @@ public class JavaApplication15 {
     public static void main(String[] args) {
      Scanner opc = new Scanner(System.in);
 
-        String nombre,apellido,direccion;
+        String nombre,apellido,direccion,ciudad;
         int edad,telefono;
 
        
@@ -23,6 +23,7 @@ public class JavaApplication15 {
         System.out.print("digite su direccion");
         direccion = opc.nextLine();
         System.out.println("su nombre es:"+direccion);
+       System.out.print("digite su ciudad");
 
         System.out.print("digite su edad");
         edad = opc.nextInt();
